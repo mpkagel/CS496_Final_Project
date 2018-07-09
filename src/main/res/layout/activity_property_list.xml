@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout taken and adapted from http://classes.engr.oregonstate.edu/eecs/spring2018/cs496/module-6/views.html -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_property_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="matt.propertytracker.PropertyListActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45sp" >
+
+        <TextView
+            android:text="@string/property_list_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/PropertyListTitle1"
+            android:layout_weight="1"
+            android:textSize="28sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BackUserOptionsButton1"
+        android:text="@string/property_back_button_label1"
+        android:textSize="@dimen/button_font_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PropertyAddButton1"
+        android:text="@string/property_add_button_label1"
+        android:textSize="@dimen/button_font_size"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/property_item_list"/>
+
+</LinearLayout>

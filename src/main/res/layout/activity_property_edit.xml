@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout taken and adapted from http://classes.engr.oregonstate.edu/eecs/spring2018/cs496/module-6/views.html -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_property_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="matt.propertytracker.PropertyEditActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="52sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_type_label"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel1"
+                    android:textSize="22sp" />
+                <EditText
+                    android:text="EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_type_text"
+                    android:textSize="22sp"
+                    android:gravity="start"
+                    android:inputType="text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="52sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_value_label"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel2"
+                    android:textSize="22sp" />
+                <EditText
+                    android:text="EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_value_text"
+                    android:textSize="22sp"
+                    android:gravity="start"
+                    android:inputType="numberSigned|numberDecimal"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="52sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_acreage_label"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel3"
+                    android:textSize="22sp" />
+                <EditText
+                    android:text="EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_acreage_text"
+                    android:textSize="22sp"
+                    android:gravity="start"
+                    android:inputType="numberSigned|numberDecimal"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="52sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_location_label"
+                    android:layout_width="120sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel4"
+                    android:textSize="22sp" />
+                <EditText
+                    android:text="EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_location_text"
+                    android:textSize="22sp"
+                    android:gravity="start"
+                    android:inputType="text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40sp" >
+
+                <TextView
+                    android:text=""
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/Spacer2"
+                    android:layout_weight="1"
+                    android:textSize="26sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40sp" >
+
+                <Button
+                    android:layout_width="200sp"
+                    android:layout_height="40sp"
+                    android:id="@+id/PropertyEditButton1"
+                    android:text="@string/property_edit_button_label1"
+                    android:textSize="@dimen/button_font_size" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PropertyTracker</string>
+
+    <!-- Main Page Login -->
+    <string name="main_link_1">Go to New User Creation</string>
+    <string name="login_title">Login</string>
+    <string name="new_user_signup_button_label">New User Signup</string>
+    <string name="forgot_password_button_label">Forgot Password?</string>
+    <string name="signup_button_label">Login to Account</string>
+
+    <!-- Create New User -->
+    <string name="submit_text_one">User E-mail</string>
+    <string name="submit_text_two">Password</string>
+    <string name="submit_text_three">Firstname</string>
+    <string name="submit_text_four">Lastname</string>
+    <string name="submit_text_five">Zip Code</string>
+    <string name="submit_text_six">Occupation</string>
+    <string name="new_signup_button_label">Create New Account</string>
+    <string name="new_user_title">New Account Information</string>
+    <string name="backmain_label">Back to Main</string>
+
+    <!-- User Options -->
+    <string name="user_options_title">User Account</string>
+    <string name="user_option_button_label1">Go to Property List</string>
+    <string name="user_option_button_label2">Logout</string>
+    <string name="user_option_button_label3">Edit User Account</string>
+    <string name="user_option_button_label4">Delete Account</string>
+
+    <!-- Edit Account Info -->
+    <string name="edit_account_title">Change Username</string>
+    <string name="user_button_label">Edit User Account</string>
+    <string name="username_text_one">Username</string>
+
+    <!-- Property List -->
+    <string name="property_list_title">Property List</string>
+    <string name="property_add_button_label1">Add Property</string>
+    <string name="property_back_button_label1">Back to User Account</string>
+
+
+    <!-- List Property Item -->
+    <string name="property_list_item_type_label">Type: </string>
+    <string name="property_list_item_value_label">Value: </string>
+    <string name="property_list_item_acreage_label">Acreage: </string>
+    <string name="property_list_item_location_label">Location: </string>
+    <string name="property_select_button_label1">Select</string>
+
+    <!-- Add Property -->
+    <string name="property_add_title">Add Property to List</string>
+    <string name="property_add_button_label2">Add Property to List</string>
+    <string name="property_add_text_one">Type</string>
+    <string name="property_add_text_two">Value ($)</string>
+    <string name="property_add_text_three"># of Acres</string>
+    <string name="property_add_text_four">Location</string>
+
+    <!-- Select Property -->
+    <string name="property_edit_button_label1">Edit Property</string>
+    <string name="property_delete_button_label1">Delete Property</string>
+
+</resources>

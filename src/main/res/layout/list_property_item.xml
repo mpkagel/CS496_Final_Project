@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout taken and adapted from https://gist.github.com/wolfordj/4017cbedfd755a805bb3124958b08ec2
+     Specifically, the file labelled activity.sqlite.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/PropertyListViewItem">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="128sp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="128sp" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="22sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_type_label"
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel1"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.4"/>
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_type_text"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.6"
+                    android:gravity="start"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="22sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_value_label"
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel2"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.4"/>
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_value_text"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.6"
+                    android:gravity="start"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="22sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_acreage_label"
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel3"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.4"/>
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_acreage_text"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.6"
+                    android:gravity="start"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="22sp" >
+
+                <TextView
+                    android:text="@string/property_list_item_location_label"
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TextLabel4"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.4"/>
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/property_list_item_location_text"
+                    android:textSize="15.5sp"
+                    android:layout_weight="0.6"
+                    android:gravity="start"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40sp" >
+
+                <Button
+                    android:layout_width="100sp"
+                    android:layout_height="40sp"
+                    android:id="@+id/PropertySelectButton1"
+                    android:text="@string/property_select_button_label1"
+                    android:textSize="@dimen/button_font_size"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
