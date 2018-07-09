@@ -20,7 +20,7 @@ import urllib
 from entity_def import User
 from entity_def import Property 
 
-firebase_api_key = "AIzaSyAugzEPtecaXrStpKQbkEfe9Hf1AEGDHOI"
+firebase_api_key = "****"
 logged_in = False
 logged_in_as = ""
 refresh_token = ""
